@@ -10,6 +10,7 @@ from time import sleep
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
+#Carrega lista de  contatos do Excel
 contatos_df = pandas.read_excel("Enviar.xlsx")
 #display(contatos_df)
 
